@@ -1,6 +1,6 @@
 #!/bin/sh /etc/rc.common
 
-PROG=/usr/bin/AdGuardHome/AdGuardHome
+PROG=/usr/bin/AdGuardHome
 
 USE_PROCD=1
 

@@ -2,7 +2,6 @@
 
 sed -i '/coremark/d' /etc/crontabs/root
 echo "#0 4 * * * /etc/coremark.sh" >> /etc/crontabs/root
-echo "*/5 * * * * /usr/bin/rockchip-pwm-fan.sh restart >/dev/null 2>&1" >> /etc/crontabs/root
 crontab /etc/crontabs/root
 
 touch /etc/bench.log
